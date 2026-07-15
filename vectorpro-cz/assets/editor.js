@@ -2,6 +2,13 @@
   "use strict";
 
   const AUTH_KEY = "vp_edit_auth";
+  const STORE_KEY = "vp_edit_store";
+  const WEB_PASSWORD = "titanic";
+  const GH_TOKEN_KEY = "vp_gh_token";
+
+  let storeMode = sessionStorage.getItem(STORE_KEY) || "auto";
+  let gh = null;
+  let saveQueue = Promise.resolve();
 
   function $(sel, root) {
     return (root || document).querySelector(sel);
@@ -17,7 +24,13 @@
 
   function setAuthed(val) {
     if (val) sessionStorage.setItem(AUTH_KEY, "1");
-    else sessionStorage.removeItem(AUTH_KEY);
+    else {
+      sessionStorage.removeItem(AUTH_KEY);
+      sessionStorage.removeItem(GH_TOKEN_KEY);
+      sessionStorage.removeItem(STORE_KEY);
+      gh = null;
+      storeMode = "auto";
+    }
     updateEditUI();
   }
 
@@ -38,19 +51,169 @@
     return res.json();
   }
 
+  function b64encodeUtf8(str) {
+    const bytes = new TextEncoder().encode(str);
+    let bin = "";
+    bytes.forEach((b) => {
+      bin += String.fromCharCode(b);
+    });
+    return btoa(bin);
+  }
+
+  function b64decode(str) {
+    const bin = atob(str);
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return bytes;
+  }
+
+  async function decryptGithubToken(password, cfg) {
+    const salt = b64decode(cfg.salt);
+    const nonce = b64decode(cfg.nonce);
+    const data = b64decode(cfg.data);
+    const enc = new TextEncoder();
+    const material = await crypto.subtle.importKey("raw", enc.encode(password), "PBKDF2", false, [
+      "deriveKey",
+    ]);
+    const key = await crypto.subtle.deriveKey(
+      { name: "PBKDF2", salt, iterations: 120000, hash: "SHA-256" },
+      material,
+      { name: "AES-GCM", length: 256 },
+      false,
+      ["decrypt"]
+    );
+    const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: nonce }, key, data);
+    return new TextDecoder().decode(plain);
+  }
+
+  async function initGithub(password) {
+    const res = await fetch(urlFn("/assets/gh-edit.json"), { cache: "no-store" });
+    if (!res.ok) throw new Error("Chybí konfigurace GitHub editace");
+    const cfg = await res.json();
+    const token = await decryptGithubToken(password, cfg);
+    gh = { owner: cfg.owner, repo: cfg.repo, token };
+    sessionStorage.setItem(GH_TOKEN_KEY, token);
+    sessionStorage.setItem(STORE_KEY, "github");
+    storeMode = "github";
+  }
+
+  async function ensureGithub() {
+    if (gh && gh.token) return gh;
+    const token = sessionStorage.getItem(GH_TOKEN_KEY);
+    if (!token) throw new Error("Nejste přihlášeni k GitHub ukládání");
+    const res = await fetch(urlFn("/assets/gh-edit.json"), { cache: "no-store" });
+    const cfg = await res.json();
+    gh = { owner: cfg.owner, repo: cfg.repo, token };
+    return gh;
+  }
+
+  async function githubGetJson(path, branch) {
+    const { owner, repo, token } = await ensureGithub();
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${encodeURIComponent(branch)}`;
+    const res = await fetch(url, {
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    if (res.status === 404) return { data: {}, sha: null };
+    if (!res.ok) throw new Error(await res.text());
+    const meta = await res.json();
+    const raw = atob(meta.content.replace(/\n/g, ""));
+    const bytes = Uint8Array.from(raw, (c) => c.charCodeAt(0));
+    const json = JSON.parse(new TextDecoder().decode(bytes));
+    return { data: json, sha: meta.sha };
+  }
+
+  async function githubPutJson(path, branch, obj, message) {
+    const { owner, repo, token } = await ensureGithub();
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+    let sha = null;
+    const get = await fetch(`${url}?ref=${encodeURIComponent(branch)}`, {
+      headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` },
+    });
+    if (get.ok) sha = (await get.json()).sha;
+    const body = {
+      message: message || `Update ${path}`,
+      content: b64encodeUtf8(JSON.stringify(obj, null, 2) + "\n"),
+      branch,
+    };
+    if (sha) body.sha = sha;
+    const res = await fetch(url, {
+      method: "PUT",
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    return res.json();
+  }
+
+  async function saveJsonToGithub(kind, mutator) {
+    const pagesPath = kind === "annotations" ? "data/annotations.json" : "data/video-overrides.json";
+    const mainPath =
+      kind === "annotations"
+        ? "vectorpro-cz/data/annotations.json"
+        : "vectorpro-cz/data/video-overrides.json";
+
+    saveQueue = saveQueue.then(async () => {
+      const pageFile = await githubGetJson(pagesPath, "gh-pages");
+      const next = { ...(pageFile.data || {}) };
+      mutator(next);
+      await githubPutJson(pagesPath, "gh-pages", next, `Edit ${kind} (web)`);
+      try {
+        await githubPutJson(mainPath, "main", next, `Edit ${kind} (web)`);
+      } catch (err) {
+        console.warn("Sync na main selhal", err);
+      }
+    });
+    await saveQueue;
+  }
+
+  async function loadStaticJson(path, fallbackKey) {
+    try {
+      const res = await fetch(urlFn(path), { cache: "no-store" });
+      if (res.ok) return await res.json();
+    } catch (_) {}
+    try {
+      return JSON.parse(localStorage.getItem(fallbackKey) || "{}");
+    } catch {
+      return {};
+    }
+  }
+
   async function loadAll() {
     try {
       const [ann, vid] = await Promise.all([api("/api/annotations"), api("/api/videos")]);
+      storeMode = "local";
       return { annotations: ann, videos: vid };
     } catch {
-      return {
-        annotations: JSON.parse(localStorage.getItem("vp_annotations") || "{}"),
-        videos: JSON.parse(localStorage.getItem("vp_videos") || "{}"),
-      };
+      const [annotations, videos] = await Promise.all([
+        loadStaticJson("/data/annotations.json", "vp_annotations"),
+        loadStaticJson("/data/video-overrides.json", "vp_videos"),
+      ]);
+      return { annotations, videos };
     }
   }
 
   async function saveAnnotation(id, text) {
+    if (storeMode === "github" || sessionStorage.getItem(STORE_KEY) === "github") {
+      try {
+        setStatus("Ukládám na GitHub…", true);
+        await saveJsonToGithub("annotations", (all) => {
+          if (text) all[id] = text;
+          else delete all[id];
+        });
+        setStatus("Uloženo na GitHub.", true);
+        return;
+      } catch (err) {
+        console.warn(err);
+        setStatus("Uložení na GitHub selhalo.", false);
+      }
+    }
     try {
       await api("/api/annotations", {
         method: "POST",
@@ -60,13 +223,28 @@
       setStatus("Uloženo.", true);
     } catch {
       const all = JSON.parse(localStorage.getItem("vp_annotations") || "{}");
-      all[id] = text;
+      if (text) all[id] = text;
+      else delete all[id];
       localStorage.setItem("vp_annotations", JSON.stringify(all));
       setStatus("Uloženo lokálně.", true);
     }
   }
 
   async function saveVideo(key, data) {
+    if (storeMode === "github" || sessionStorage.getItem(STORE_KEY) === "github") {
+      try {
+        setStatus("Ukládám video nastavení…", true);
+        await saveJsonToGithub("videos", (all) => {
+          if (data && Object.keys(data).length) all[key] = data;
+          else delete all[key];
+        });
+        setStatus("Uloženo na GitHub.", true);
+        return;
+      } catch (err) {
+        console.warn(err);
+        setStatus("Uložení na GitHub selhalo.", false);
+      }
+    }
     try {
       await api("/api/videos", {
         method: "POST",
@@ -275,6 +453,19 @@
         if (id && isAuthed()) saveAnnotation(id, text);
       });
     });
+
+    $all(".editable-title-cs").forEach((el) => {
+      if (el.dataset.titleBound) return;
+      el.dataset.titleBound = "1";
+      el.addEventListener("blur", () => {
+        if (!isAuthed()) return;
+        const field = el.dataset.field || "title";
+        const slug = document.body.dataset.pageSlug || "home";
+        const vidKey = el.closest(".video-wrap")?.dataset?.videoKey;
+        const id = vidKey ? `${vidKey}::${field}` : `${slug}::${field}`;
+        saveAnnotation(id, el.textContent.trim());
+      });
+    });
   }
 
   function applyAnnotations(data) {
@@ -339,6 +530,11 @@
       bar.querySelector('[data-action="upload-video"]')?.addEventListener("change", async (e) => {
         const file = e.target.files?.[0];
         if (!file) return;
+        if (storeMode === "github" || sessionStorage.getItem(STORE_KEY) === "github") {
+          alert("Na webu GitHub použijte „Nastavit odkaz“ (upload velkých videí není podporován).");
+          e.target.value = "";
+          return;
+        }
         const fd = new FormData();
         fd.append("file", file);
         fd.append("key", key);
@@ -407,6 +603,12 @@
   window.vpActivateIframes = setupLaunchers;
 
   async function init() {
+    if (sessionStorage.getItem(STORE_KEY) === "github" && sessionStorage.getItem(GH_TOKEN_KEY)) {
+      storeMode = "github";
+      try {
+        await ensureGithub();
+      } catch (_) {}
+    }
     await reloadAll();
     updateEditUI();
     $("#edit-login")?.addEventListener("click", async () => {
@@ -421,9 +623,25 @@
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ password: pass }),
         });
+        storeMode = "local";
+        sessionStorage.setItem(STORE_KEY, "local");
         setAuthed(true);
-      } catch {
+        return;
+      } catch (_) {
+        /* static GitHub Pages – continue */
+      }
+      if (pass !== WEB_PASSWORD) {
         setStatus("Špatné heslo.", false);
+        return;
+      }
+      try {
+        setStatus("Přihlašuji…", true);
+        await initGithub(pass);
+        setAuthed(true);
+        setStatus("Režim úprav aktivní (ukládá na GitHub)", true);
+      } catch (err) {
+        console.warn(err);
+        setStatus("Přihlášení selhalo (GitHub konfigurace).", false);
       }
     });
     $("#edit-password")?.addEventListener("keydown", (e) => {

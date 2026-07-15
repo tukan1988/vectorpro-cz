@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import os
 import shutil
 import subprocess
 import sys
@@ -20,6 +21,9 @@ def run(cmd: list[str], cwd: Path | None = None) -> None:
 
 
 def main() -> None:
+    token_file = ROOT / ".edit-github-token"
+    if token_file.exists() or os.environ.get("VP_GITHUB_TOKEN"):
+        run([sys.executable, "setup_gh_edit.py"])
     run([sys.executable, "build_pages.py", "--out", "_site", "--base", BASE])
 
     tmp = Path(tempfile.mkdtemp(prefix="vp-pages-"))

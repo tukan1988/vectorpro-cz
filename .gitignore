@@ -3,6 +3,7 @@ __pycache__/
 _site/
 .env
 .edit-password
+.edit-github-token
 .venv/
 vectorpro-cz/uploads/
 *.log

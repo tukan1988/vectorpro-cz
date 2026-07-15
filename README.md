@@ -70,6 +70,15 @@ python test_video.py
 
 ## Poznámka k úpravám online
 
-Na veřejné GitHub Pages verzi funguje prohlížení a přehrávání videí.
-Úpravy textů/videí se ukládají do localStorage prohlížeče (ne na server).
-Pro trvalé úpravy použijte lokální server a pak push na GitHub.
+Na veřejné GitHub Pages verzi funguje prohlížení, přehrávání videí a **editace**.
+Po zadání hesla dole na stránce se změny ukládají do GitHubu (`annotations.json`, `video-overrides.json`).
+Lokálně (`server.py`) se ukládá do souborů na disku.
+
+Pro obnovení GitHub tokenu použitého k uložení z webu:
+
+```bash
+# Fine-grained PAT (Contents: Write) uložte do .edit-github-token
+python setup_gh_edit.py
+python deploy_github.py
+```
+
