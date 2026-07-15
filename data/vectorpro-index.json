@@ -1,0 +1,1979 @@
+{
+  "generated_at": "2026-07-15T12:00:28.804392+00:00",
+  "source": "https://vectorpro.io",
+  "total_pages": 219,
+  "total_categories": 35,
+  "pages": [
+    {
+      "category_en": "Requirements",
+      "category_cs": "Požadavky",
+      "title_en": "System Requirements",
+      "slug": "system-requirements",
+      "url_original": "https://vectorpro.io/software/system-requirements",
+      "url_local": "/software/system-requirements/",
+      "title_cs": "Systémové požadavky"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Register For VectorPro Software Download",
+      "slug": "register-vectorpro-software-download",
+      "url_original": "https://vectorpro.io/software/register-vectorpro-software-download",
+      "url_local": "/software/register-vectorpro-software-download/",
+      "title_cs": "Zaregistrujte se ke stažení softwaru VectorPro"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Log On to Download VectorPro Software",
+      "slug": "log-download-vectorpro-software",
+      "url_original": "https://vectorpro.io/software/log-download-vectorpro-software",
+      "url_local": "/software/log-download-vectorpro-software/",
+      "title_cs": "Přihlaste se a stáhněte si software VectorPro"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Installing VectorPro With SQL",
+      "slug": "installing-vectorpro-sql",
+      "url_original": "https://vectorpro.io/software/installing-vectorpro-sql",
+      "url_local": "/software/installing-vectorpro-sql/",
+      "title_cs": "Instalace VectorPro s SQL"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Downloading and installing VectorPro LTS With SQL",
+      "slug": "downloading-and-installing-vectorpro-lts-sql",
+      "url_original": "https://vectorpro.io/software/downloading-and-installing-vectorpro-lts-sql",
+      "url_local": "/software/downloading-and-installing-vectorpro-lts-sql/",
+      "title_cs": "Stažení a instalace VectorPro LTS s SQL"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Downloading and installing VectorPro VPS With SQL",
+      "slug": "downloading-and-installing-vectorpro-vps-sql",
+      "url_original": "https://vectorpro.io/software/downloading-and-installing-vectorpro-vps-sql",
+      "url_local": "/software/downloading-and-installing-vectorpro-vps-sql/",
+      "title_cs": "Stažení a instalace VectorPro VPS s SQL"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Unzipping VectorPro With SQL",
+      "slug": "unzipping-vectorpro-sql",
+      "url_original": "https://vectorpro.io/software/unzipping-vectorpro-sql",
+      "url_local": "/software/unzipping-vectorpro-sql/",
+      "title_cs": "Rozbalení VectorPro pomocí SQL"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Installing VectorPro Without SQL",
+      "slug": "installing-vectorpro-without-sql",
+      "url_original": "https://vectorpro.io/software/installing-vectorpro-without-sql",
+      "url_local": "/software/installing-vectorpro-without-sql/",
+      "title_cs": "Instalace VectorPro bez SQL"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Downloading and installing VectorPro LTS Without SQL",
+      "slug": "downloading-and-installing-vectorpro-lts-without-sql",
+      "url_original": "https://vectorpro.io/software/downloading-and-installing-vectorpro-lts-without-sql",
+      "url_local": "/software/downloading-and-installing-vectorpro-lts-without-sql/",
+      "title_cs": "Stažení a instalace VectorPro LTS bez SQL"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Downloading and installing VectorPro VPS Without SQL",
+      "slug": "downloading-and-installing-vectorpro-vps-without-sql",
+      "url_original": "https://vectorpro.io/software/downloading-and-installing-vectorpro-vps-without-sql",
+      "url_local": "/software/downloading-and-installing-vectorpro-vps-without-sql/",
+      "title_cs": "Stažení a instalace VectorPro VPS bez SQL"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Unzipping VectorPro Without SQL",
+      "slug": "unzipping-vectorpro-without-sql",
+      "url_original": "https://vectorpro.io/software/unzipping-vectorpro-without-sql",
+      "url_local": "/software/unzipping-vectorpro-without-sql/",
+      "title_cs": "Rozbalení VectorPro bez SQL"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Creating a new blank database",
+      "slug": "creating-new-blank-database",
+      "url_original": "https://vectorpro.io/software/creating-new-blank-database",
+      "url_local": "/software/creating-new-blank-database/",
+      "title_cs": "Vytvoření nové prázdné databáze"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Making Multiple Databases",
+      "slug": "making-multiple-databases",
+      "url_original": "https://vectorpro.io/software/making-multiple-databases",
+      "url_local": "/software/making-multiple-databases/",
+      "title_cs": "Vytváření více databází"
+    },
+    {
+      "category_en": "Install/Upgrade",
+      "category_cs": "Instalace/Aktualizace",
+      "title_en": "Upgrading VectorPro",
+      "slug": "upgrading-vectorpro",
+      "url_original": "https://vectorpro.io/software/upgrading-vectorpro",
+      "url_local": "/software/upgrading-vectorpro/",
+      "title_cs": "Aktualizace VectorPro"
+    },
+    {
+      "category_en": "Login Screen",
+      "category_cs": "Přihlašovací obrazovka",
+      "title_en": "VectorPro Login Screen",
+      "slug": "vectorpro-login-screen",
+      "url_original": "https://vectorpro.io/software/vectorpro-login-screen",
+      "url_local": "/software/vectorpro-login-screen/",
+      "title_cs": "Přihlašovací obrazovka VectorPro"
+    },
+    {
+      "category_en": "Login Screen",
+      "category_cs": "Přihlašovací obrazovka",
+      "title_en": "VectorPro Logo Functionality",
+      "slug": "vectorpro-logo-functionality",
+      "url_original": "https://vectorpro.io/software/vectorpro-logo-functionality",
+      "url_local": "/software/vectorpro-logo-functionality/",
+      "title_cs": "Funkce loga VectorPro"
+    },
+    {
+      "category_en": "Connect",
+      "category_cs": "Připojení",
+      "title_en": "Calibration and Service Request",
+      "slug": "calibration-and-service-request",
+      "url_original": "https://vectorpro.io/software/calibration-and-service-request",
+      "url_local": "/software/calibration-and-service-request/",
+      "title_cs": "Kalibrace a požadavek na servis"
+    },
+    {
+      "category_en": "Connect",
+      "category_cs": "Připojení",
+      "title_en": "Product Registration",
+      "slug": "product-registration",
+      "url_original": "https://vectorpro.io/software/product-registration",
+      "url_local": "/software/product-registration/",
+      "title_cs": "Registrace produktu"
+    },
+    {
+      "category_en": "Connect",
+      "category_cs": "Připojení",
+      "title_en": "Support Request",
+      "slug": "support-request",
+      "url_original": "https://vectorpro.io/software/support-request",
+      "url_local": "/software/support-request/",
+      "title_cs": "Žádost o podporu"
+    },
+    {
+      "category_en": "Connect",
+      "category_cs": "Připojení",
+      "title_en": "System Information",
+      "slug": "system-information",
+      "url_original": "https://vectorpro.io/software/system-information",
+      "url_local": "/software/system-information/",
+      "title_cs": "Systémové informace"
+    },
+    {
+      "category_en": "Stand Configuration",
+      "category_cs": "Konfigurace stojanu",
+      "title_en": "Switching between -dv(u) and -dv stand configuration",
+      "slug": "switching-between-dvu-and-dv-stand-configuration",
+      "url_original": "https://vectorpro.io/software/switching-between-dvu-and-dv-stand-configuration",
+      "url_local": "/software/switching-between-dvu-and-dv-stand-configuration/",
+      "title_cs": "Přepínání mezi -dv(u) a -dv konfigurací stojanu"
+    },
+    {
+      "category_en": "Workspace",
+      "category_cs": "Pracovní prostor",
+      "title_en": "All Tests Tile",
+      "slug": "all-tests-tile",
+      "url_original": "https://vectorpro.io/software/all-tests-tile",
+      "url_local": "/software/all-tests-tile/",
+      "title_cs": "Všechny Testovací dlaždice"
+    },
+    {
+      "category_en": "Workspace",
+      "category_cs": "Pracovní prostor",
+      "title_en": "Attributes Tile",
+      "slug": "attributes-tile",
+      "url_original": "https://vectorpro.io/software/attributes-tile",
+      "url_local": "/software/attributes-tile/",
+      "title_cs": "Atributy dlaždice"
+    },
+    {
+      "category_en": "Workspace",
+      "category_cs": "Pracovní prostor",
+      "title_en": "Batch Sets Tile",
+      "slug": "batch-sets-tile",
+      "url_original": "https://vectorpro.io/software/batch-sets-tile",
+      "url_local": "/software/batch-sets-tile/",
+      "title_cs": "Dávkové sady dlaždic"
+    },
+    {
+      "category_en": "Workspace",
+      "category_cs": "Pracovní prostor",
+      "title_en": "Events Tile",
+      "slug": "events-tile",
+      "url_original": "https://vectorpro.io/software/events-tile",
+      "url_local": "/software/events-tile/",
+      "title_cs": "Dlaždice událostí"
+    },
+    {
+      "category_en": "Workspace",
+      "category_cs": "Pracovní prostor",
+      "title_en": "Languages Tile",
+      "slug": "languages-tile",
+      "url_original": "https://vectorpro.io/software/languages-tile",
+      "url_local": "/software/languages-tile/",
+      "title_cs": "Jazyky dlaždice"
+    },
+    {
+      "category_en": "Workspace",
+      "category_cs": "Pracovní prostor",
+      "title_en": "New Test Tile",
+      "slug": "new-test-tile",
+      "url_original": "https://vectorpro.io/software/new-test-tile",
+      "url_local": "/software/new-test-tile/",
+      "title_cs": "Nová testovací dlaždice"
+    },
+    {
+      "category_en": "Workspace",
+      "category_cs": "Pracovní prostor",
+      "title_en": "Permissions Tile",
+      "slug": "permissions-tile",
+      "url_original": "https://vectorpro.io/software/permissions-tile",
+      "url_local": "/software/permissions-tile/",
+      "title_cs": "Dlaždice oprávnění"
+    },
+    {
+      "category_en": "Workspace",
+      "category_cs": "Pracovní prostor",
+      "title_en": "Results Tile",
+      "slug": "results-tile",
+      "url_original": "https://vectorpro.io/software/results-tile",
+      "url_local": "/software/results-tile/",
+      "title_cs": "Dlaždice výsledků"
+    },
+    {
+      "category_en": "Workspace",
+      "category_cs": "Pracovní prostor",
+      "title_en": "SDC Tile",
+      "slug": "sdc-tile",
+      "url_original": "https://vectorpro.io/software/sdc-tile",
+      "url_local": "/software/sdc-tile/",
+      "title_cs": "Dlaždice SDC"
+    },
+    {
+      "category_en": "Workspace",
+      "category_cs": "Pracovní prostor",
+      "title_en": "Trash Tile",
+      "slug": "trash-tile",
+      "url_original": "https://vectorpro.io/software/trash-tile",
+      "url_local": "/software/trash-tile/",
+      "title_cs": "Koš dlaždice"
+    },
+    {
+      "category_en": "Workspace",
+      "category_cs": "Pracovní prostor",
+      "title_en": "What is the Default Workspace?",
+      "slug": "what-default-workspace",
+      "url_original": "https://vectorpro.io/software/what-default-workspace",
+      "url_local": "/software/what-default-workspace/",
+      "title_cs": "Co je výchozí pracovní prostor?"
+    },
+    {
+      "category_en": "Permissions",
+      "category_cs": "Oprávnění",
+      "title_en": "Permissions Tab",
+      "slug": "permissions-tab",
+      "url_original": "https://vectorpro.io/software/permissions-tab",
+      "url_local": "/software/permissions-tab/",
+      "title_cs": "Karta oprávnění"
+    },
+    {
+      "category_en": "Permissions",
+      "category_cs": "Oprávnění",
+      "title_en": "Permissions Tab Selections",
+      "slug": "permissions-tab-selections",
+      "url_original": "https://vectorpro.io/software/permissions-tab-selections",
+      "url_local": "/software/permissions-tab-selections/",
+      "title_cs": "Výběry na kartě Oprávnění"
+    },
+    {
+      "category_en": "Permissions",
+      "category_cs": "Oprávnění",
+      "title_en": "Policies Tab",
+      "slug": "policies-tab",
+      "url_original": "https://vectorpro.io/software/policies-tab",
+      "url_local": "/software/policies-tab/",
+      "title_cs": "Zásady Tab"
+    },
+    {
+      "category_en": "Permissions",
+      "category_cs": "Oprávnění",
+      "title_en": "Users/Groups Tab",
+      "slug": "usersgroups-tab",
+      "url_original": "https://vectorpro.io/software/usersgroups-tab",
+      "url_local": "/software/usersgroups-tab/",
+      "title_cs": "Karta Uživatelé/Skupiny"
+    },
+    {
+      "category_en": "Permissions",
+      "category_cs": "Oprávnění",
+      "title_en": "What is the Permissions Tile?",
+      "slug": "what-permissions-tile",
+      "url_original": "https://vectorpro.io/software/what-permissions-tile",
+      "url_local": "/software/what-permissions-tile/",
+      "title_cs": "Co je dlaždice oprávnění?"
+    },
+    {
+      "category_en": "Permissions",
+      "category_cs": "Oprávnění",
+      "title_en": "Workspaces Tab",
+      "slug": "workspaces-tab",
+      "url_original": "https://vectorpro.io/software/workspaces-tab",
+      "url_local": "/software/workspaces-tab/",
+      "title_cs": "Tab Pracovní prostory"
+    },
+    {
+      "category_en": "Language",
+      "category_cs": "Jazyk",
+      "title_en": "Editing a Language",
+      "slug": "editing-language",
+      "url_original": "https://vectorpro.io/software/editing-language",
+      "url_local": "/software/editing-language/",
+      "title_cs": "Úprava jazyka"
+    },
+    {
+      "category_en": "Language",
+      "category_cs": "Jazyk",
+      "title_en": "Searching a Phrase or Word",
+      "slug": "searching-phrase-or-word",
+      "url_original": "https://vectorpro.io/software/searching-phrase-or-word",
+      "url_local": "/software/searching-phrase-or-word/",
+      "title_cs": "Hledání fráze nebo slova"
+    },
+    {
+      "category_en": "Language",
+      "category_cs": "Jazyk",
+      "title_en": "What is Language Mapping?",
+      "slug": "what-language-mapping",
+      "url_original": "https://vectorpro.io/software/what-language-mapping",
+      "url_local": "/software/what-language-mapping/",
+      "title_cs": "Co je jazykové mapování?"
+    },
+    {
+      "category_en": "Event Log",
+      "category_cs": "Protokol událostí",
+      "title_en": "Columns",
+      "slug": "columns",
+      "url_original": "https://vectorpro.io/software/columns",
+      "url_local": "/software/columns/",
+      "title_cs": "Sloupce"
+    },
+    {
+      "category_en": "Event Log",
+      "category_cs": "Protokol událostí",
+      "title_en": "Event Log Controls",
+      "slug": "event-log-controls",
+      "url_original": "https://vectorpro.io/software/event-log-controls",
+      "url_local": "/software/event-log-controls/",
+      "title_cs": "Ovládací prvky protokolu událostí"
+    },
+    {
+      "category_en": "Event Log",
+      "category_cs": "Protokol událostí",
+      "title_en": "Exports",
+      "slug": "exports",
+      "url_original": "https://vectorpro.io/software/exports",
+      "url_local": "/software/exports/",
+      "title_cs": "Vývoz"
+    },
+    {
+      "category_en": "Event Log",
+      "category_cs": "Protokol událostí",
+      "title_en": "Page Control",
+      "slug": "page-control",
+      "url_original": "https://vectorpro.io/software/page-control",
+      "url_local": "/software/page-control/",
+      "title_cs": "Ovládání stránky"
+    },
+    {
+      "category_en": "Event Log",
+      "category_cs": "Protokol událostí",
+      "title_en": "Search Filters",
+      "slug": "search-filters",
+      "url_original": "https://vectorpro.io/software/search-filters",
+      "url_local": "/software/search-filters/",
+      "title_cs": "Filtry vyhledávání"
+    },
+    {
+      "category_en": "Event Log",
+      "category_cs": "Protokol událostí",
+      "title_en": "What is the Event Log?",
+      "slug": "what-event-log",
+      "url_original": "https://vectorpro.io/software/what-event-log",
+      "url_local": "/software/what-event-log/",
+      "title_cs": "Co je protokol událostí?"
+    },
+    {
+      "category_en": "System Deflection Compensation (SDC)",
+      "category_cs": "Kompenzace systémové deflekce (SDC)",
+      "title_en": "Add SDC",
+      "slug": "add-sdc",
+      "url_original": "https://vectorpro.io/software/add-sdc",
+      "url_local": "/software/add-sdc/",
+      "title_cs": "Přidejte SDC"
+    },
+    {
+      "category_en": "System Deflection Compensation (SDC)",
+      "category_cs": "Kompenzace systémové deflekce (SDC)",
+      "title_en": "Adding a SDC to a Test",
+      "slug": "adding-sdc-test",
+      "url_original": "https://vectorpro.io/software/adding-sdc-test",
+      "url_local": "/software/adding-sdc-test/",
+      "title_cs": "Přidání SDC k testu"
+    },
+    {
+      "category_en": "System Deflection Compensation (SDC)",
+      "category_cs": "Kompenzace systémové deflekce (SDC)",
+      "title_en": "Advanced",
+      "slug": "advanced",
+      "url_original": "https://vectorpro.io/software/advanced",
+      "url_local": "/software/advanced/",
+      "title_cs": "Moderní"
+    },
+    {
+      "category_en": "System Deflection Compensation (SDC)",
+      "category_cs": "Kompenzace systémové deflekce (SDC)",
+      "title_en": "Details of SDC",
+      "slug": "details-sdc",
+      "url_original": "https://vectorpro.io/software/details-sdc",
+      "url_local": "/software/details-sdc/",
+      "title_cs": "Podrobnosti o SDC"
+    },
+    {
+      "category_en": "System Deflection Compensation (SDC)",
+      "category_cs": "Kompenzace systémové deflekce (SDC)",
+      "title_en": "Existing SDC",
+      "slug": "existing-sdc",
+      "url_original": "https://vectorpro.io/software/existing-sdc",
+      "url_local": "/software/existing-sdc/",
+      "title_cs": "Stávající SDC"
+    },
+    {
+      "category_en": "System Deflection Compensation (SDC)",
+      "category_cs": "Kompenzace systémové deflekce (SDC)",
+      "title_en": "Graph Features",
+      "slug": "graph-features",
+      "url_original": "https://vectorpro.io/software/graph-features",
+      "url_local": "/software/graph-features/",
+      "title_cs": "Vlastnosti grafu"
+    },
+    {
+      "category_en": "System Deflection Compensation (SDC)",
+      "category_cs": "Kompenzace systémové deflekce (SDC)",
+      "title_en": "Play/Start SDC",
+      "slug": "playstart-sdc",
+      "url_original": "https://vectorpro.io/software/playstart-sdc",
+      "url_local": "/software/playstart-sdc/",
+      "title_cs": "Přehrát/Spustit SDC"
+    },
+    {
+      "category_en": "System Deflection Compensation (SDC)",
+      "category_cs": "Kompenzace systémové deflekce (SDC)",
+      "title_en": "Process",
+      "slug": "process",
+      "url_original": "https://vectorpro.io/software/process",
+      "url_local": "/software/process/",
+      "title_cs": "Proces"
+    },
+    {
+      "category_en": "System Deflection Compensation (SDC)",
+      "category_cs": "Kompenzace systémové deflekce (SDC)",
+      "title_en": "SDC Configure and Perform Screen",
+      "slug": "sdc-configure-and-perform-screen",
+      "url_original": "https://vectorpro.io/software/sdc-configure-and-perform-screen",
+      "url_local": "/software/sdc-configure-and-perform-screen/",
+      "title_cs": "Obrazovka Konfigurace a provedení SDC"
+    },
+    {
+      "category_en": "System Deflection Compensation (SDC)",
+      "category_cs": "Kompenzace systémové deflekce (SDC)",
+      "title_en": "Search for SDC",
+      "slug": "search-sdc",
+      "url_original": "https://vectorpro.io/software/search-sdc",
+      "url_local": "/software/search-sdc/",
+      "title_cs": "Vyhledejte SDC"
+    },
+    {
+      "category_en": "System Deflection Compensation (SDC)",
+      "category_cs": "Kompenzace systémové deflekce (SDC)",
+      "title_en": "What is System Deflection Compensentation (SDC) Tile?",
+      "slug": "what-system-deflection-compensentation-sdc-tile",
+      "url_original": "https://vectorpro.io/software/what-system-deflection-compensentation-sdc-tile",
+      "url_local": "/software/what-system-deflection-compensentation-sdc-tile/",
+      "title_cs": "Co je dlaždice kompenzace průhybu systému (SDC)?"
+    },
+    {
+      "category_en": "Attributes",
+      "category_cs": "Atributy",
+      "title_en": "Attribute Flags",
+      "slug": "attribute-flags",
+      "url_original": "https://vectorpro.io/software/attribute-flags",
+      "url_local": "/software/attribute-flags/",
+      "title_cs": "Příznaky atributů"
+    },
+    {
+      "category_en": "Attributes",
+      "category_cs": "Atributy",
+      "title_en": "Attribute Labels",
+      "slug": "attribute-labels",
+      "url_original": "https://vectorpro.io/software/attribute-labels",
+      "url_local": "/software/attribute-labels/",
+      "title_cs": "Popisky atributů"
+    },
+    {
+      "category_en": "Attributes",
+      "category_cs": "Atributy",
+      "title_en": "Filter by Status",
+      "slug": "filter-status",
+      "url_original": "https://vectorpro.io/software/filter-status",
+      "url_local": "/software/filter-status/",
+      "title_cs": "Filtrovat podle stavu"
+    },
+    {
+      "category_en": "Attributes",
+      "category_cs": "Atributy",
+      "title_en": "Filters by Type",
+      "slug": "filters-type",
+      "url_original": "https://vectorpro.io/software/filters-type",
+      "url_local": "/software/filters-type/",
+      "title_cs": "Filtruje podle typu"
+    },
+    {
+      "category_en": "Attributes",
+      "category_cs": "Atributy",
+      "title_en": "Search Attributes",
+      "slug": "search-attributes",
+      "url_original": "https://vectorpro.io/software/search-attributes",
+      "url_local": "/software/search-attributes/",
+      "title_cs": "Hledat atributy"
+    },
+    {
+      "category_en": "Attributes",
+      "category_cs": "Atributy",
+      "title_en": "What is the Attributes Tile?",
+      "slug": "what-attributes-tile",
+      "url_original": "https://vectorpro.io/software/what-attributes-tile",
+      "url_local": "/software/what-attributes-tile/",
+      "title_cs": "Co je dlaždice atributů?"
+    },
+    {
+      "category_en": "All Tests",
+      "category_cs": "Všechny testy",
+      "title_en": "Function Buttons",
+      "slug": "function-buttons",
+      "url_original": "https://vectorpro.io/software/function-buttons",
+      "url_local": "/software/function-buttons/",
+      "title_cs": "Funkční tlačítka"
+    },
+    {
+      "category_en": "All Tests",
+      "category_cs": "Všechny testy",
+      "title_en": "Overview Columns",
+      "slug": "overview-columns",
+      "url_original": "https://vectorpro.io/software/overview-columns",
+      "url_local": "/software/overview-columns/",
+      "title_cs": "Přehled sloupců"
+    },
+    {
+      "category_en": "All Tests",
+      "category_cs": "Všechny testy",
+      "title_en": "Tests Selector",
+      "slug": "tests-selector",
+      "url_original": "https://vectorpro.io/software/tests-selector",
+      "url_local": "/software/tests-selector/",
+      "title_cs": "Výběr testů"
+    },
+    {
+      "category_en": "All Tests",
+      "category_cs": "Všechny testy",
+      "title_en": "Tests Version Selector",
+      "slug": "tests-version-selector",
+      "url_original": "https://vectorpro.io/software/tests-version-selector",
+      "url_local": "/software/tests-version-selector/",
+      "title_cs": "Testuje výběr verze"
+    },
+    {
+      "category_en": "All Tests",
+      "category_cs": "Všechny testy",
+      "title_en": "What is the All Tests Tile?",
+      "slug": "what-all-tests-tile",
+      "url_original": "https://vectorpro.io/software/what-all-tests-tile",
+      "url_local": "/software/what-all-tests-tile/",
+      "title_cs": "Co je dlaždice Všechny testy?"
+    },
+    {
+      "category_en": "Results",
+      "category_cs": "Výsledky",
+      "title_en": "Multiple Random Results",
+      "slug": "multiple-random-results",
+      "url_original": "https://vectorpro.io/software/multiple-random-results",
+      "url_local": "/software/multiple-random-results/",
+      "title_cs": "Více náhodných výsledků"
+    },
+    {
+      "category_en": "Results",
+      "category_cs": "Výsledky",
+      "title_en": "Result Filters",
+      "slug": "result-filters",
+      "url_original": "https://vectorpro.io/software/result-filters",
+      "url_local": "/software/result-filters/",
+      "title_cs": "Filtry výsledků"
+    },
+    {
+      "category_en": "Results",
+      "category_cs": "Výsledky",
+      "title_en": "Select a Test Result",
+      "slug": "select-test-result",
+      "url_original": "https://vectorpro.io/software/select-test-result",
+      "url_local": "/software/select-test-result/",
+      "title_cs": "Vyberte výsledek testu"
+    },
+    {
+      "category_en": "Results",
+      "category_cs": "Výsledky",
+      "title_en": "Units",
+      "slug": "units",
+      "url_original": "https://vectorpro.io/software/units",
+      "url_local": "/software/units/",
+      "title_cs": "Jednotky"
+    },
+    {
+      "category_en": "Results",
+      "category_cs": "Výsledky",
+      "title_en": "View",
+      "slug": "view",
+      "url_original": "https://vectorpro.io/software/view",
+      "url_local": "/software/view/",
+      "title_cs": "Pohled"
+    },
+    {
+      "category_en": "Results",
+      "category_cs": "Výsledky",
+      "title_en": "What is the Results Tile?",
+      "slug": "what-results-tile",
+      "url_original": "https://vectorpro.io/software/what-results-tile",
+      "url_local": "/software/what-results-tile/",
+      "title_cs": "Co je dlaždice výsledků?"
+    },
+    {
+      "category_en": "Batch Sets",
+      "category_cs": "Dávkové sady",
+      "title_en": "Batch Selector Pull Down List",
+      "slug": "batch-selector-pull-down-list",
+      "url_original": "https://vectorpro.io/software/batch-selector-pull-down-list",
+      "url_local": "/software/batch-selector-pull-down-list/",
+      "title_cs": "Rozbalovací seznam pro výběr dávky"
+    },
+    {
+      "category_en": "Batch Sets",
+      "category_cs": "Dávkové sady",
+      "title_en": "Function Buttons Empty Batch",
+      "slug": "function-buttons-empty-batch",
+      "url_original": "https://vectorpro.io/software/function-buttons-empty-batch",
+      "url_local": "/software/function-buttons-empty-batch/",
+      "title_cs": "Funkční tlačítka Vyprázdnit dávku"
+    },
+    {
+      "category_en": "Batch Sets",
+      "category_cs": "Dávkové sady",
+      "title_en": "Function Buttons Started or Completed Batch",
+      "slug": "function-buttons-started-or-completed-batch",
+      "url_original": "https://vectorpro.io/software/function-buttons-started-or-completed-batch",
+      "url_local": "/software/function-buttons-started-or-completed-batch/",
+      "title_cs": "Funkční tlačítka Spuštěná nebo dokončená dávka"
+    },
+    {
+      "category_en": "Batch Sets",
+      "category_cs": "Dávkové sady",
+      "title_en": "What is the Batch Sets Tile?",
+      "slug": "what-batch-sets-tile",
+      "url_original": "https://vectorpro.io/software/what-batch-sets-tile",
+      "url_local": "/software/what-batch-sets-tile/",
+      "title_cs": "Co je dlaždice dávkových sad?"
+    },
+    {
+      "category_en": "Trash",
+      "category_cs": "Koš",
+      "title_en": "Filters",
+      "slug": "filters",
+      "url_original": "https://vectorpro.io/software/filters",
+      "url_local": "/software/filters/",
+      "title_cs": "Filtry"
+    },
+    {
+      "category_en": "Trash",
+      "category_cs": "Koš",
+      "title_en": "What is a Trash Tile?",
+      "slug": "what-trash-tile",
+      "url_original": "https://vectorpro.io/software/what-trash-tile",
+      "url_local": "/software/what-trash-tile/",
+      "title_cs": "Co je to koš?"
+    },
+    {
+      "category_en": "New Test",
+      "category_cs": "Nový test",
+      "title_en": "What is the New Test Tile?",
+      "slug": "what-new-test-tile",
+      "url_original": "https://vectorpro.io/software/what-new-test-tile",
+      "url_local": "/software/what-new-test-tile/",
+      "title_cs": "Co je nová testovací dlaždice?"
+    },
+    {
+      "category_en": "New Test",
+      "category_cs": "Nový test",
+      "title_en": "Axis Data Selection",
+      "slug": "axis-data-selection",
+      "url_original": "https://vectorpro.io/software/axis-data-selection",
+      "url_local": "/software/axis-data-selection/",
+      "title_cs": "Výběr dat osy"
+    },
+    {
+      "category_en": "New Test",
+      "category_cs": "Nový test",
+      "title_en": "Custom Axis Selection",
+      "slug": "custom-axis-selection",
+      "url_original": "https://vectorpro.io/software/custom-axis-selection",
+      "url_local": "/software/custom-axis-selection/",
+      "title_cs": "Výběr vlastní osy"
+    },
+    {
+      "category_en": "New Test",
+      "category_cs": "Nový test",
+      "title_en": "Equipment Selection Filter",
+      "slug": "equipment-selection-filter",
+      "url_original": "https://vectorpro.io/software/equipment-selection-filter",
+      "url_local": "/software/equipment-selection-filter/",
+      "title_cs": "Filtr výběru zařízení"
+    },
+    {
+      "category_en": "New Test",
+      "category_cs": "Nový test",
+      "title_en": "Selection Buttons",
+      "slug": "selection-buttons",
+      "url_original": "https://vectorpro.io/software/selection-buttons",
+      "url_local": "/software/selection-buttons/",
+      "title_cs": "Tlačítka pro výběr"
+    },
+    {
+      "category_en": "New Test",
+      "category_cs": "Nový test",
+      "title_en": "Test Name",
+      "slug": "test-name",
+      "url_original": "https://vectorpro.io/software/test-name",
+      "url_local": "/software/test-name/",
+      "title_cs": "Název testu"
+    },
+    {
+      "category_en": "New Test",
+      "category_cs": "Nový test",
+      "title_en": "Type of Test",
+      "slug": "type-test",
+      "url_original": "https://vectorpro.io/software/type-test",
+      "url_local": "/software/type-test/",
+      "title_cs": "Typ testu"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "What is the Attributes Tab?",
+      "slug": "what-attributes-tab",
+      "url_original": "https://vectorpro.io/software/what-attributes-tab",
+      "url_local": "/software/what-attributes-tab/",
+      "title_cs": "Co je karta Atributy?"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Default Attributes",
+      "slug": "default-attributes",
+      "url_original": "https://vectorpro.io/software/default-attributes",
+      "url_local": "/software/default-attributes/",
+      "title_cs": "Výchozí atributy"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Deleting in New Test",
+      "slug": "deleting-new-test",
+      "url_original": "https://vectorpro.io/software/deleting-new-test",
+      "url_local": "/software/deleting-new-test/",
+      "title_cs": "Mazání v novém testu"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Editing a Predefined List",
+      "slug": "editing-predefined-list",
+      "url_original": "https://vectorpro.io/software/editing-predefined-list",
+      "url_local": "/software/editing-predefined-list/",
+      "title_cs": "Úprava předdefinovaného seznamu"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Editing a Single Test Attribute",
+      "slug": "editing-single-test-attribute",
+      "url_original": "https://vectorpro.io/software/editing-single-test-attribute",
+      "url_local": "/software/editing-single-test-attribute/",
+      "title_cs": "Úprava jediného testovacího atributu"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Existing Attributes",
+      "slug": "existing-attributes",
+      "url_original": "https://vectorpro.io/software/existing-attributes",
+      "url_local": "/software/existing-attributes/",
+      "title_cs": "Stávající atributy"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Global Editing in Attribute Tile",
+      "slug": "global-editing-attribute-tile",
+      "url_original": "https://vectorpro.io/software/global-editing-attribute-tile",
+      "url_local": "/software/global-editing-attribute-tile/",
+      "title_cs": "Globální úpravy v dlaždici atributů"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Grouping Tests by Attribute",
+      "slug": "grouping-tests-attribute",
+      "url_original": "https://vectorpro.io/software/grouping-tests-attribute",
+      "url_local": "/software/grouping-tests-attribute/",
+      "title_cs": "Seskupování testů podle atributu"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Image Attribute",
+      "slug": "image-attribute",
+      "url_original": "https://vectorpro.io/software/image-attribute",
+      "url_local": "/software/image-attribute/",
+      "title_cs": "Atribut obrázku"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Label Attribute",
+      "slug": "label-attribute",
+      "url_original": "https://vectorpro.io/software/label-attribute",
+      "url_local": "/software/label-attribute/",
+      "title_cs": "Atribut štítku"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Minimise the Attributes View",
+      "slug": "minimise-attributes-view",
+      "url_original": "https://vectorpro.io/software/minimise-attributes-view",
+      "url_local": "/software/minimise-attributes-view/",
+      "title_cs": "Minimalizujte zobrazení atributů"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Note Attribute",
+      "slug": "note-attribute",
+      "url_original": "https://vectorpro.io/software/note-attribute",
+      "url_local": "/software/note-attribute/",
+      "title_cs": "Poznámka Atribut"
+    },
+    {
+      "category_en": "Attributes Tab",
+      "category_cs": "Záložka Atributy",
+      "title_en": "Number Attribute",
+      "slug": "number-attribute",
+      "url_original": "https://vectorpro.io/software/number-attribute",
+      "url_local": "/software/number-attribute/",
+      "title_cs": "Atribut čísla"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "What is the Specimen Tab?",
+      "slug": "what-specimen-tab",
+      "url_original": "https://vectorpro.io/software/what-specimen-tab",
+      "url_local": "/software/what-specimen-tab/",
+      "title_cs": "What is the Specimen Tab?"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Entering Sample Dimensions",
+      "slug": "entering-sample-dimensions",
+      "url_original": "https://vectorpro.io/software/entering-sample-dimensions",
+      "url_local": "/software/entering-sample-dimensions/",
+      "title_cs": "Zadání vzorových rozměrů"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Extensometers",
+      "slug": "extensometers",
+      "url_original": "https://vectorpro.io/software/extensometers",
+      "url_local": "/software/extensometers/",
+      "title_cs": "Extenzometry"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Four Point Bend Sample Dimensions",
+      "slug": "four-point-bend-sample-dimensions",
+      "url_original": "https://vectorpro.io/software/four-point-bend-sample-dimensions",
+      "url_local": "/software/four-point-bend-sample-dimensions/",
+      "title_cs": "Rozměry vzorku čtyřbodového ohybu"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Gauge and Grip Separation",
+      "slug": "gauge-and-grip-separation",
+      "url_original": "https://vectorpro.io/software/gauge-and-grip-separation",
+      "url_local": "/software/gauge-and-grip-separation/",
+      "title_cs": "Oddělení měřidla a rukojeti"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Gauge Length",
+      "slug": "gauge-length",
+      "url_original": "https://vectorpro.io/software/gauge-length",
+      "url_local": "/software/gauge-length/",
+      "title_cs": "Délka měřidla"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Grip Separation",
+      "slug": "grip-separation",
+      "url_original": "https://vectorpro.io/software/grip-separation",
+      "url_local": "/software/grip-separation/",
+      "title_cs": "Oddělení rukojeti"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Height",
+      "slug": "height",
+      "url_original": "https://vectorpro.io/software/height",
+      "url_local": "/software/height/",
+      "title_cs": "Výška"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Name",
+      "slug": "name",
+      "url_original": "https://vectorpro.io/software/name",
+      "url_local": "/software/name/",
+      "title_cs": "Jméno"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Prompt For Specimen",
+      "slug": "prompt-specimen",
+      "url_original": "https://vectorpro.io/software/prompt-specimen",
+      "url_local": "/software/prompt-specimen/",
+      "title_cs": "Výzva pro vzorek"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "SI Units",
+      "slug": "si-units",
+      "url_original": "https://vectorpro.io/software/si-units",
+      "url_local": "/software/si-units/",
+      "title_cs": "Jednotky SI"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Specimen Dimensions",
+      "slug": "specimen-dimensions",
+      "url_original": "https://vectorpro.io/software/specimen-dimensions",
+      "url_local": "/software/specimen-dimensions/",
+      "title_cs": "Rozměry vzorku"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Three Point Bend Sample Dimensions",
+      "slug": "three-point-bend-sample-dimensions",
+      "url_original": "https://vectorpro.io/software/three-point-bend-sample-dimensions",
+      "url_local": "/software/three-point-bend-sample-dimensions/",
+      "title_cs": "Rozměry vzorku tříbodového ohybu"
+    },
+    {
+      "category_en": "Specimen Tab",
+      "category_cs": "Záložka Vzorek",
+      "title_en": "Toe Correction",
+      "slug": "toe-correction",
+      "url_original": "https://vectorpro.io/software/toe-correction",
+      "url_local": "/software/toe-correction/",
+      "title_cs": "Korekce prstů"
+    },
+    {
+      "category_en": "Operations Tab",
+      "category_cs": "Záložka Operace",
+      "title_en": "What is the Operations Tab?",
+      "slug": "what-operations-tab",
+      "url_original": "https://vectorpro.io/software/what-operations-tab",
+      "url_local": "/software/what-operations-tab/",
+      "title_cs": "Co je karta Operace?"
+    },
+    {
+      "category_en": "Operations Tab",
+      "category_cs": "Záložka Operace",
+      "title_en": "Settings",
+      "slug": "settings",
+      "url_original": "https://vectorpro.io/software/settings",
+      "url_local": "/software/settings/",
+      "title_cs": "Nastavení"
+    },
+    {
+      "category_en": "Operations Tab",
+      "category_cs": "Záložka Operace",
+      "title_en": "Timeline and Toolbox Overview",
+      "slug": "timeline-and-toolbox-overview",
+      "url_original": "https://vectorpro.io/software/timeline-and-toolbox-overview",
+      "url_local": "/software/timeline-and-toolbox-overview/",
+      "title_cs": "Přehled časové osy a panelu nástrojů"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Bending Specific Operations",
+      "slug": "bending-specific-operations",
+      "url_original": "https://vectorpro.io/software/bending-specific-operations",
+      "url_local": "/software/bending-specific-operations/",
+      "title_cs": "Operace specifické pro ohýbání"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Common Operations",
+      "slug": "common-operations",
+      "url_original": "https://vectorpro.io/software/common-operations",
+      "url_local": "/software/common-operations/",
+      "title_cs": "Běžné operace"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Compression Specific Operations",
+      "slug": "compression-specific-operations",
+      "url_original": "https://vectorpro.io/software/compression-specific-operations",
+      "url_local": "/software/compression-specific-operations/",
+      "title_cs": "Operace specifické pro kompresi"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Condition Operations",
+      "slug": "condition-operations",
+      "url_original": "https://vectorpro.io/software/condition-operations",
+      "url_local": "/software/condition-operations/",
+      "title_cs": "Podmínkové operace"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Digital Output",
+      "slug": "digital-output",
+      "url_original": "https://vectorpro.io/software/digital-output",
+      "url_local": "/software/digital-output/",
+      "title_cs": "Digitální výstup"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Limit Operations",
+      "slug": "limit-operations",
+      "url_original": "https://vectorpro.io/software/limit-operations",
+      "url_local": "/software/limit-operations/",
+      "title_cs": "Limitní operace"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Overview of Operations common to Tension, Compression and Bending tests",
+      "slug": "overview-operations-common-tension-compression-and-bending-tests",
+      "url_original": "https://vectorpro.io/software/overview-operations-common-tension-compression-and-bending-tests",
+      "url_local": "/software/overview-operations-common-tension-compression-and-bending-tests/",
+      "title_cs": "Přehled operací společných pro zkoušky tahem, tlakem a ohybem"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Pause Operations",
+      "slug": "pause-operations",
+      "url_original": "https://vectorpro.io/software/pause-operations",
+      "url_local": "/software/pause-operations/",
+      "title_cs": "Pozastavit operace"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Relative Operations",
+      "slug": "relative-operations",
+      "url_original": "https://vectorpro.io/software/relative-operations",
+      "url_local": "/software/relative-operations/",
+      "title_cs": "Relativní operace"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Target Operations",
+      "slug": "target-operations",
+      "url_original": "https://vectorpro.io/software/target-operations",
+      "url_local": "/software/target-operations/",
+      "title_cs": "Cílové operace"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Tension Specific Operations",
+      "slug": "tension-specific-operations",
+      "url_original": "https://vectorpro.io/software/tension-specific-operations",
+      "url_local": "/software/tension-specific-operations/",
+      "title_cs": "Operace specifické pro napětí"
+    },
+    {
+      "category_en": "Operations",
+      "category_cs": "Operace",
+      "title_en": "Vector Cloud Solutions",
+      "slug": "vector-cloud-solutions",
+      "url_original": "https://vectorpro.io/software/vector-cloud-solutions",
+      "url_local": "/software/vector-cloud-solutions/",
+      "title_cs": "Vector Cloud Solutions"
+    },
+    {
+      "category_en": "Results/Export",
+      "category_cs": "Výsledky/Export",
+      "title_en": "Batch Export",
+      "slug": "batch-export",
+      "url_original": "https://vectorpro.io/software/batch-export",
+      "url_local": "/software/batch-export/",
+      "title_cs": "Dávkový export"
+    },
+    {
+      "category_en": "Results/Export",
+      "category_cs": "Výsledky/Export",
+      "title_en": "Export",
+      "slug": "export",
+      "url_original": "https://vectorpro.io/software/export",
+      "url_local": "/software/export/",
+      "title_cs": "Vývozní"
+    },
+    {
+      "category_en": "Sample Results",
+      "category_cs": "Výsledky vzorku",
+      "title_en": "Sample",
+      "slug": "sample",
+      "url_original": "https://vectorpro.io/software/sample",
+      "url_local": "/software/sample/",
+      "title_cs": "Ochutnat"
+    },
+    {
+      "category_en": "Attribute Results",
+      "category_cs": "Výsledky atributů",
+      "title_en": "Default",
+      "slug": "default",
+      "url_original": "https://vectorpro.io/software/default",
+      "url_local": "/software/default/",
+      "title_cs": "Výchozí"
+    },
+    {
+      "category_en": "Attribute Results",
+      "category_cs": "Výsledky atributů",
+      "title_en": "Optional",
+      "slug": "optional",
+      "url_original": "https://vectorpro.io/software/optional",
+      "url_local": "/software/optional/",
+      "title_cs": "Volitelný"
+    },
+    {
+      "category_en": "Common Calculation Editing",
+      "category_cs": "Úprava běžných výpočtů",
+      "title_en": "Axis for Result",
+      "slug": "axis-result",
+      "url_original": "https://vectorpro.io/software/axis-result",
+      "url_local": "/software/axis-result/",
+      "title_cs": "Osa pro výsledek"
+    },
+    {
+      "category_en": "Common Calculation Editing",
+      "category_cs": "Úprava běžných výpočtů",
+      "title_en": "Decimal Places",
+      "slug": "decimal-places",
+      "url_original": "https://vectorpro.io/software/decimal-places",
+      "url_local": "/software/decimal-places/",
+      "title_cs": "Desetinná místa"
+    },
+    {
+      "category_en": "Common Calculation Editing",
+      "category_cs": "Úprava běžných výpočtů",
+      "title_en": "Dynamic Verify",
+      "slug": "dynamic-verify",
+      "url_original": "https://vectorpro.io/software/dynamic-verify",
+      "url_local": "/software/dynamic-verify/",
+      "title_cs": "Dynamické ověření"
+    },
+    {
+      "category_en": "Common Calculation Editing",
+      "category_cs": "Úprava běžných výpočtů",
+      "title_en": "Hide in Report",
+      "slug": "hide-report",
+      "url_original": "https://vectorpro.io/software/hide-report",
+      "url_local": "/software/hide-report/",
+      "title_cs": "Skrýt v přehledu"
+    },
+    {
+      "category_en": "Common Calculation Editing",
+      "category_cs": "Úprava běžných výpočtů",
+      "title_en": "Hide Results",
+      "slug": "hide-results",
+      "url_original": "https://vectorpro.io/software/hide-results",
+      "url_local": "/software/hide-results/",
+      "title_cs": "Skrýt výsledky"
+    },
+    {
+      "category_en": "Common Calculation Editing",
+      "category_cs": "Úprava běžných výpočtů",
+      "title_en": "Range X &amp; Y",
+      "slug": "range-x-y",
+      "url_original": "https://vectorpro.io/software/range-x-y",
+      "url_local": "/software/range-x-y/",
+      "title_cs": "Rozsah X & Y"
+    },
+    {
+      "category_en": "Common Calculation Editing",
+      "category_cs": "Úprava běžných výpočtů",
+      "title_en": "Result",
+      "slug": "result",
+      "url_original": "https://vectorpro.io/software/result",
+      "url_local": "/software/result/",
+      "title_cs": "Výsledek"
+    },
+    {
+      "category_en": "Common Calculation Editing",
+      "category_cs": "Úprava běžných výpočtů",
+      "title_en": "Verify",
+      "slug": "verify",
+      "url_original": "https://vectorpro.io/software/verify",
+      "url_local": "/software/verify/",
+      "title_cs": "Ověřte"
+    },
+    {
+      "category_en": "Calculations",
+      "category_cs": "Výpočty",
+      "title_en": "Formulae Builder",
+      "slug": "formulae-builder",
+      "url_original": "https://vectorpro.io/software/formulae-builder",
+      "url_local": "/software/formulae-builder/",
+      "title_cs": "Tvůrce vzorců"
+    },
+    {
+      "category_en": "Calculations",
+      "category_cs": "Výpočty",
+      "title_en": "Friction, Tear and Peel Results",
+      "slug": "friction-tear-and-peel-results",
+      "url_original": "https://vectorpro.io/software/friction-tear-and-peel-results",
+      "url_local": "/software/friction-tear-and-peel-results/",
+      "title_cs": "Výsledky tření, roztržení a odlupování"
+    },
+    {
+      "category_en": "Calculations",
+      "category_cs": "Výpočty",
+      "title_en": "Specimen Results",
+      "slug": "specimen-results",
+      "url_original": "https://vectorpro.io/software/specimen-results",
+      "url_local": "/software/specimen-results/",
+      "title_cs": "Výsledky vzorků"
+    },
+    {
+      "category_en": "Calculations",
+      "category_cs": "Výpočty",
+      "title_en": "Standard Results",
+      "slug": "standard-results",
+      "url_original": "https://vectorpro.io/software/standard-results",
+      "url_local": "/software/standard-results/",
+      "title_cs": "Standardní výsledky"
+    },
+    {
+      "category_en": "Calculations",
+      "category_cs": "Výpočty",
+      "title_en": "Texture Analysis",
+      "slug": "texture-analysis",
+      "url_original": "https://vectorpro.io/software/texture-analysis",
+      "url_local": "/software/texture-analysis/",
+      "title_cs": "Analýza textur"
+    },
+    {
+      "category_en": "Report Templates",
+      "category_cs": "Šablony reportů",
+      "title_en": "Common Functionality",
+      "slug": "common-functionality",
+      "url_original": "https://vectorpro.io/software/common-functionality",
+      "url_local": "/software/common-functionality/",
+      "title_cs": "Společná funkčnost"
+    },
+    {
+      "category_en": "Report Templates",
+      "category_cs": "Šablony reportů",
+      "title_en": "Configurable Functionality (Template 11)",
+      "slug": "configurable-functionality-template-11",
+      "url_original": "https://vectorpro.io/software/configurable-functionality-template-11",
+      "url_local": "/software/configurable-functionality-template-11/",
+      "title_cs": "Konfigurovatelná funkce (šablona 11)"
+    },
+    {
+      "category_en": "Report Templates",
+      "category_cs": "Šablony reportů",
+      "title_en": "Templates",
+      "slug": "templates",
+      "url_original": "https://vectorpro.io/software/templates",
+      "url_local": "/software/templates/",
+      "title_cs": "Šablony"
+    },
+    {
+      "category_en": "Batch Report Templates",
+      "category_cs": "Šablony dávkových reportů",
+      "title_en": "Batch Templates",
+      "slug": "batch-templates",
+      "url_original": "https://vectorpro.io/software/batch-templates",
+      "url_local": "/software/batch-templates/",
+      "title_cs": "Dávkové šablony"
+    },
+    {
+      "category_en": "Test Permissions",
+      "category_cs": "Oprávnění testu",
+      "title_en": "Admin Approval",
+      "slug": "admin-approval",
+      "url_original": "https://vectorpro.io/software/admin-approval",
+      "url_local": "/software/admin-approval/",
+      "title_cs": "Schválení správce"
+    },
+    {
+      "category_en": "Test Permissions",
+      "category_cs": "Oprávnění testu",
+      "title_en": "Delete Sample",
+      "slug": "delete-sample",
+      "url_original": "https://vectorpro.io/software/delete-sample",
+      "url_local": "/software/delete-sample/",
+      "title_cs": "Smazat vzorek"
+    },
+    {
+      "category_en": "Test Permissions",
+      "category_cs": "Oprávnění testu",
+      "title_en": "Execute",
+      "slug": "execute",
+      "url_original": "https://vectorpro.io/software/execute",
+      "url_local": "/software/execute/",
+      "title_cs": "Vykonat"
+    },
+    {
+      "category_en": "Test Permissions",
+      "category_cs": "Oprávnění testu",
+      "title_en": "Print Report",
+      "slug": "print-report",
+      "url_original": "https://vectorpro.io/software/print-report",
+      "url_local": "/software/print-report/",
+      "title_cs": "Tisk sestavy"
+    },
+    {
+      "category_en": "Test Permissions",
+      "category_cs": "Oprávnění testu",
+      "title_en": "Save",
+      "slug": "save",
+      "url_original": "https://vectorpro.io/software/save",
+      "url_local": "/software/save/",
+      "title_cs": "Uložit"
+    },
+    {
+      "category_en": "Test Permissions",
+      "category_cs": "Oprávnění testu",
+      "title_en": "View Report",
+      "slug": "view-report",
+      "url_original": "https://vectorpro.io/software/view-report",
+      "url_local": "/software/view-report/",
+      "title_cs": "Zobrazit zprávu"
+    },
+    {
+      "category_en": "Test Permissions",
+      "category_cs": "Oprávnění testu",
+      "title_en": "Workspace",
+      "slug": "workspace-0",
+      "url_original": "https://vectorpro.io/software/workspace-0",
+      "url_local": "/software/workspace-0/",
+      "title_cs": "Pracovní prostor"
+    },
+    {
+      "category_en": "Test Permissions",
+      "category_cs": "Oprávnění testu",
+      "title_en": "Workspace – Batch Sets",
+      "slug": "workspace-batch-sets",
+      "url_original": "https://vectorpro.io/software/workspace-batch-sets",
+      "url_local": "/software/workspace-batch-sets/",
+      "title_cs": "Pracovní prostor – dávkové sady"
+    },
+    {
+      "category_en": "Vector Cloud",
+      "category_cs": "Vector Cloud",
+      "title_en": "How to Register with the Cloud",
+      "slug": "how-register-cloud",
+      "url_original": "https://vectorpro.io/software/how-register-cloud",
+      "url_local": "/software/how-register-cloud/",
+      "title_cs": "Jak se zaregistrovat do cloudu"
+    },
+    {
+      "category_en": "Vector Cloud",
+      "category_cs": "Vector Cloud",
+      "title_en": "Export a Test",
+      "slug": "export-test",
+      "url_original": "https://vectorpro.io/software/export-test",
+      "url_local": "/software/export-test/",
+      "title_cs": "Export testu"
+    },
+    {
+      "category_en": "Vector Cloud",
+      "category_cs": "Vector Cloud",
+      "title_en": "Export Results",
+      "slug": "export-results",
+      "url_original": "https://vectorpro.io/software/export-results",
+      "url_local": "/software/export-results/",
+      "title_cs": "Exportovat výsledky"
+    },
+    {
+      "category_en": "Vector Cloud",
+      "category_cs": "Vector Cloud",
+      "title_en": "Import a Test",
+      "slug": "import-test",
+      "url_original": "https://vectorpro.io/software/import-test",
+      "url_local": "/software/import-test/",
+      "title_cs": "Importujte test"
+    },
+    {
+      "category_en": "Vector Cloud",
+      "category_cs": "Vector Cloud",
+      "title_en": "Import Results",
+      "slug": "import-results",
+      "url_original": "https://vectorpro.io/software/import-results",
+      "url_local": "/software/import-results/",
+      "title_cs": "Importovat výsledky"
+    },
+    {
+      "category_en": "Tests",
+      "category_cs": "Testy",
+      "title_en": "View Test Samples",
+      "slug": "view-test-samples",
+      "url_original": "https://vectorpro.io/software/view-test-samples",
+      "url_local": "/software/view-test-samples/",
+      "title_cs": "Zobrazit zkušební vzorky"
+    },
+    {
+      "category_en": "Tests",
+      "category_cs": "Testy",
+      "title_en": "Compare Test Samples",
+      "slug": "compare-test-samples",
+      "url_original": "https://vectorpro.io/software/compare-test-samples",
+      "url_local": "/software/compare-test-samples/",
+      "title_cs": "Porovnejte zkušební vzorky"
+    },
+    {
+      "category_en": "Tests",
+      "category_cs": "Testy",
+      "title_en": "Copy a Test",
+      "slug": "copy-test",
+      "url_original": "https://vectorpro.io/software/copy-test",
+      "url_local": "/software/copy-test/",
+      "title_cs": "Zkopírujte test"
+    },
+    {
+      "category_en": "Tests",
+      "category_cs": "Testy",
+      "title_en": "Edit a Test",
+      "slug": "edit-test",
+      "url_original": "https://vectorpro.io/software/edit-test",
+      "url_local": "/software/edit-test/",
+      "title_cs": "Upravit test"
+    },
+    {
+      "category_en": "Tests",
+      "category_cs": "Testy",
+      "title_en": "Save Test Definition",
+      "slug": "save-test-definition",
+      "url_original": "https://vectorpro.io/software/save-test-definition",
+      "url_local": "/software/save-test-definition/",
+      "title_cs": "Uložit definici testu"
+    },
+    {
+      "category_en": "Tests",
+      "category_cs": "Testy",
+      "title_en": "Test Maintenance Menu",
+      "slug": "test-maintenance-menu",
+      "url_original": "https://vectorpro.io/software/test-maintenance-menu",
+      "url_local": "/software/test-maintenance-menu/",
+      "title_cs": "Nabídka Test údržby"
+    },
+    {
+      "category_en": "Tests",
+      "category_cs": "Testy",
+      "title_en": "Export Test Definition",
+      "slug": "export-test-definition",
+      "url_original": "https://vectorpro.io/software/export-test-definition",
+      "url_local": "/software/export-test-definition/",
+      "title_cs": "Export definice testu"
+    },
+    {
+      "category_en": "Tests",
+      "category_cs": "Testy",
+      "title_en": "Demo Graph Draw",
+      "slug": "demo-graph-draw",
+      "url_original": "https://vectorpro.io/software/demo-graph-draw",
+      "url_local": "/software/demo-graph-draw/",
+      "title_cs": "Kreslení ukázkového grafu"
+    },
+    {
+      "category_en": "Tests",
+      "category_cs": "Testy",
+      "title_en": "New Batch from Test",
+      "slug": "new-batch-test",
+      "url_original": "https://vectorpro.io/software/new-batch-test",
+      "url_local": "/software/new-batch-test/",
+      "title_cs": "Nová várka z testu"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Clear Home Position",
+      "slug": "clear-home-position",
+      "url_original": "https://vectorpro.io/software/clear-home-position",
+      "url_local": "/software/clear-home-position/",
+      "title_cs": "Vymazat výchozí pozici"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Exit",
+      "slug": "exit",
+      "url_original": "https://vectorpro.io/software/exit",
+      "url_local": "/software/exit/",
+      "title_cs": "Výstup"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Graph Screen Maintenance Button",
+      "slug": "graph-screen-maintenance-button",
+      "url_original": "https://vectorpro.io/software/graph-screen-maintenance-button",
+      "url_local": "/software/graph-screen-maintenance-button/",
+      "title_cs": "Tlačítko údržby obrazovky grafu"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Live Display",
+      "slug": "live-display",
+      "url_original": "https://vectorpro.io/software/live-display",
+      "url_local": "/software/live-display/",
+      "title_cs": "Živé zobrazení"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Machine USB Connection",
+      "slug": "machine-usb-connection",
+      "url_original": "https://vectorpro.io/software/machine-usb-connection",
+      "url_local": "/software/machine-usb-connection/",
+      "title_cs": "USB připojení stroje"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Move to Absolute Position",
+      "slug": "move-absolute-position",
+      "url_original": "https://vectorpro.io/software/move-absolute-position",
+      "url_local": "/software/move-absolute-position/",
+      "title_cs": "Přesuňte se do absolutní polohy"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Move to Home Position",
+      "slug": "move-home-position",
+      "url_original": "https://vectorpro.io/software/move-home-position",
+      "url_local": "/software/move-home-position/",
+      "title_cs": "Přesuňte se do výchozí pozice"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Navigation Functions",
+      "slug": "navigation-functions",
+      "url_original": "https://vectorpro.io/software/navigation-functions",
+      "url_local": "/software/navigation-functions/",
+      "title_cs": "Navigační funkce"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "PC Date/Time",
+      "slug": "pc-datetime",
+      "url_original": "https://vectorpro.io/software/pc-datetime",
+      "url_local": "/software/pc-datetime/",
+      "title_cs": "Datum/čas PC"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Play",
+      "slug": "play",
+      "url_original": "https://vectorpro.io/software/play",
+      "url_local": "/software/play/",
+      "title_cs": "Hrát"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Play to Start Test",
+      "slug": "play-start-test",
+      "url_original": "https://vectorpro.io/software/play-start-test",
+      "url_local": "/software/play-start-test/",
+      "title_cs": "Přehrát a spustit test"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Record",
+      "slug": "record",
+      "url_original": "https://vectorpro.io/software/record",
+      "url_local": "/software/record/",
+      "title_cs": "Záznam"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Record and Email",
+      "slug": "record-and-email",
+      "url_original": "https://vectorpro.io/software/record-and-email",
+      "url_local": "/software/record-and-email/",
+      "title_cs": "Záznam a e-mail"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Set Absolute Position (Offset)",
+      "slug": "set-absolute-position-offset",
+      "url_original": "https://vectorpro.io/software/set-absolute-position-offset",
+      "url_local": "/software/set-absolute-position-offset/",
+      "title_cs": "Nastavit absolutní polohu (offset)"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Set Home Position",
+      "slug": "set-home-position",
+      "url_original": "https://vectorpro.io/software/set-home-position",
+      "url_local": "/software/set-home-position/",
+      "title_cs": "Nastavte výchozí pozici"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Shortcut Menu",
+      "slug": "shortcut-menu",
+      "url_original": "https://vectorpro.io/software/shortcut-menu",
+      "url_local": "/software/shortcut-menu/",
+      "title_cs": "Nabídka zkratek"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Show Absolute Position",
+      "slug": "show-absolute-position",
+      "url_original": "https://vectorpro.io/software/show-absolute-position",
+      "url_local": "/software/show-absolute-position/",
+      "title_cs": "Zobrazit absolutní pozici"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Speed Replay Time",
+      "slug": "speed-replay-time",
+      "url_original": "https://vectorpro.io/software/speed-replay-time",
+      "url_local": "/software/speed-replay-time/",
+      "title_cs": "Rychlost opakování"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Stop",
+      "slug": "stop",
+      "url_original": "https://vectorpro.io/software/stop",
+      "url_local": "/software/stop/",
+      "title_cs": "Zastávka"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Stop to Stop Test",
+      "slug": "stop-stop-test",
+      "url_original": "https://vectorpro.io/software/stop-stop-test",
+      "url_local": "/software/stop-stop-test/",
+      "title_cs": "Stop to Stop Test"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Tare All",
+      "slug": "tare-all",
+      "url_original": "https://vectorpro.io/software/tare-all",
+      "url_local": "/software/tare-all/",
+      "title_cs": "Tare All"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Tare Displacement",
+      "slug": "tare-displacement",
+      "url_original": "https://vectorpro.io/software/tare-displacement",
+      "url_local": "/software/tare-displacement/",
+      "title_cs": "Posun táry"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Tare Load",
+      "slug": "tare-load",
+      "url_original": "https://vectorpro.io/software/tare-load",
+      "url_local": "/software/tare-load/",
+      "title_cs": "Tare Load"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "Test Replay Function",
+      "slug": "test-replay-function",
+      "url_original": "https://vectorpro.io/software/test-replay-function",
+      "url_local": "/software/test-replay-function/",
+      "title_cs": "Test funkce opakování"
+    },
+    {
+      "category_en": "Graphs",
+      "category_cs": "Grafy",
+      "title_en": "VectorPro Logo",
+      "slug": "vectorpro-logo",
+      "url_original": "https://vectorpro.io/software/vectorpro-logo",
+      "url_local": "/software/vectorpro-logo/",
+      "title_cs": "Logo VectorPro"
+    },
+    {
+      "category_en": "Graph Results",
+      "category_cs": "Výsledky grafu",
+      "title_en": "Results View and Edit",
+      "slug": "results-view-and-edit",
+      "url_original": "https://vectorpro.io/software/results-view-and-edit",
+      "url_local": "/software/results-view-and-edit/",
+      "title_cs": "Zobrazení a úprava výsledků"
+    },
+    {
+      "category_en": "Graph Results",
+      "category_cs": "Výsledky grafu",
+      "title_en": "Shortcut Buttons",
+      "slug": "shortcut-buttons",
+      "url_original": "https://vectorpro.io/software/shortcut-buttons",
+      "url_local": "/software/shortcut-buttons/",
+      "title_cs": "Tlačítka zkratek"
+    },
+    {
+      "category_en": "Create a Batch Set",
+      "category_cs": "Vytvoření dávkové sady",
+      "title_en": "Axis",
+      "slug": "axis",
+      "url_original": "https://vectorpro.io/software/axis",
+      "url_local": "/software/axis/",
+      "title_cs": "Osa"
+    },
+    {
+      "category_en": "Create a Batch Set",
+      "category_cs": "Vytvoření dávkové sady",
+      "title_en": "Displaying Completed Batches",
+      "slug": "displaying-completed-batches",
+      "url_original": "https://vectorpro.io/software/displaying-completed-batches",
+      "url_local": "/software/displaying-completed-batches/",
+      "title_cs": "Zobrazení dokončených dávek"
+    },
+    {
+      "category_en": "Create a Batch Set",
+      "category_cs": "Vytvoření dávkové sady",
+      "title_en": "Label",
+      "slug": "label",
+      "url_original": "https://vectorpro.io/software/label",
+      "url_local": "/software/label/",
+      "title_cs": "Označení"
+    },
+    {
+      "category_en": "Create a Batch Set",
+      "category_cs": "Vytvoření dávkové sady",
+      "title_en": "Number of Batches",
+      "slug": "number-batches",
+      "url_original": "https://vectorpro.io/software/number-batches",
+      "url_local": "/software/number-batches/",
+      "title_cs": "Počet šarží"
+    },
+    {
+      "category_en": "Create a Batch Set",
+      "category_cs": "Vytvoření dávkové sady",
+      "title_en": "Prompt for Attribute",
+      "slug": "prompt-attribute",
+      "url_original": "https://vectorpro.io/software/prompt-attribute",
+      "url_local": "/software/prompt-attribute/",
+      "title_cs": "Dotázat se na atribut"
+    },
+    {
+      "category_en": "Create a Batch Set",
+      "category_cs": "Vytvoření dávkové sady",
+      "title_en": "Samples per Batch",
+      "slug": "samples-batch",
+      "url_original": "https://vectorpro.io/software/samples-batch",
+      "url_local": "/software/samples-batch/",
+      "title_cs": "Vzorky na šarži"
+    },
+    {
+      "category_en": "Batch Set Workspace",
+      "category_cs": "Pracovní prostor dávkové sady",
+      "title_en": "Activate the Batch View",
+      "slug": "activate-batch-view",
+      "url_original": "https://vectorpro.io/software/activate-batch-view",
+      "url_local": "/software/activate-batch-view/",
+      "title_cs": "Aktivujte zobrazení dávky"
+    },
+    {
+      "category_en": "Batch Set Workspace",
+      "category_cs": "Pracovní prostor dávkové sady",
+      "title_en": "Batch Set View",
+      "slug": "batch-set-view",
+      "url_original": "https://vectorpro.io/software/batch-set-view",
+      "url_local": "/software/batch-set-view/",
+      "title_cs": "Zobrazení dávkové sady"
+    },
+    {
+      "category_en": "Batch Set Workspace",
+      "category_cs": "Pracovní prostor dávkové sady",
+      "title_en": "Batch Tile Functions",
+      "slug": "batch-tile-functions",
+      "url_original": "https://vectorpro.io/software/batch-tile-functions",
+      "url_local": "/software/batch-tile-functions/",
+      "title_cs": "Funkce dávkových dlaždic"
+    },
+    {
+      "category_en": "Batch Set Workspace",
+      "category_cs": "Pracovní prostor dávkové sady",
+      "title_en": "Maintenance",
+      "slug": "maintenance",
+      "url_original": "https://vectorpro.io/software/maintenance",
+      "url_local": "/software/maintenance/",
+      "title_cs": "Údržba"
+    },
+    {
+      "category_en": "Batch Set Workspace",
+      "category_cs": "Pracovní prostor dávkové sady",
+      "title_en": "Tile Icons",
+      "slug": "tile-icons",
+      "url_original": "https://vectorpro.io/software/tile-icons",
+      "url_local": "/software/tile-icons/",
+      "title_cs": "Dlaždice ikony"
+    },
+    {
+      "category_en": "Batch Testing",
+      "category_cs": "Dávkové testování",
+      "title_en": "Batch Screen Display Batch Sets",
+      "slug": "batch-screen-display-batch-sets",
+      "url_original": "https://vectorpro.io/software/batch-screen-display-batch-sets",
+      "url_local": "/software/batch-screen-display-batch-sets/",
+      "title_cs": "Dávkové zobrazení obrazovky Dávkové sady"
+    },
+    {
+      "category_en": "Batch Testing",
+      "category_cs": "Dávkové testování",
+      "title_en": "Batch Screen Display Samples",
+      "slug": "batch-screen-display-samples",
+      "url_original": "https://vectorpro.io/software/batch-screen-display-samples",
+      "url_local": "/software/batch-screen-display-samples/",
+      "title_cs": "Ukázky dávkového zobrazení obrazovky"
+    },
+    {
+      "category_en": "Batch Testing",
+      "category_cs": "Dávkové testování",
+      "title_en": "Batch Screen During Testing",
+      "slug": "batch-screen-during-testing",
+      "url_original": "https://vectorpro.io/software/batch-screen-during-testing",
+      "url_local": "/software/batch-screen-during-testing/",
+      "title_cs": "Dávková obrazovka během testování"
+    },
+    {
+      "category_en": "Batch Testing",
+      "category_cs": "Dávkové testování",
+      "title_en": "Batch Screen Manual Excel Export",
+      "slug": "batch-screen-manual-excel-export",
+      "url_original": "https://vectorpro.io/software/batch-screen-manual-excel-export",
+      "url_local": "/software/batch-screen-manual-excel-export/",
+      "title_cs": "Dávková obrazovka Ruční export do Excelu"
+    },
+    {
+      "category_en": "Batch Testing",
+      "category_cs": "Dávkové testování",
+      "title_en": "Batch Screen Manual Text Export",
+      "slug": "batch-screen-manual-text-export",
+      "url_original": "https://vectorpro.io/software/batch-screen-manual-text-export",
+      "url_local": "/software/batch-screen-manual-text-export/",
+      "title_cs": "Dávková obrazovka Ruční export textu"
+    },
+    {
+      "category_en": "Batch Testing",
+      "category_cs": "Dávkové testování",
+      "title_en": "Batch Screen Statistics",
+      "slug": "batch-screen-statistics",
+      "url_original": "https://vectorpro.io/software/batch-screen-statistics",
+      "url_local": "/software/batch-screen-statistics/",
+      "title_cs": "Statistika dávkové obrazovky"
+    },
+    {
+      "category_en": "Batch Testing",
+      "category_cs": "Dávkové testování",
+      "title_en": "Opening Batch Screen to Perform Testing",
+      "slug": "opening-batch-screen-perform-testing",
+      "url_original": "https://vectorpro.io/software/opening-batch-screen-perform-testing",
+      "url_local": "/software/opening-batch-screen-perform-testing/",
+      "title_cs": "Otevření dávkové obrazovky pro provedení testování"
+    }
+  ]
+}
