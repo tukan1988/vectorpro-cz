@@ -1,7 +1,6 @@
 (function () {
   "use strict";
 
-  const PASSWORD = "titanic";
   const AUTH_KEY = "vp_edit_auth";
 
   function $(sel, root) {
@@ -261,7 +260,7 @@
           note.contentEditable = "true";
           note.focus();
         } else {
-          alert("Pro úpravu popisku zadejte heslo titanic dole na stránce.");
+          alert("Pro úpravu popisku se nejdříve přihlaste dole na stránce.");
         }
       });
 
@@ -411,18 +410,21 @@
     await reloadAll();
     updateEditUI();
     $("#edit-login")?.addEventListener("click", async () => {
-      if (($("#edit-password")?.value || "") !== PASSWORD) {
-        setStatus("Špatné heslo.", false);
+      const pass = ($("#edit-password")?.value || "").trim();
+      if (!pass) {
+        setStatus("Zadejte heslo.", false);
         return;
       }
       try {
         await api("/api/auth", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ password: PASSWORD }),
+          body: JSON.stringify({ password: pass }),
         });
-      } catch (_) {}
-      setAuthed(true);
+        setAuthed(true);
+      } catch {
+        setStatus("Špatné heslo.", false);
+      }
     });
     $("#edit-password")?.addEventListener("keydown", (e) => {
       if (e.key === "Enter") $("#edit-login")?.click();

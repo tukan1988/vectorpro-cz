@@ -22,7 +22,8 @@ python server.py
 
 Otevřete http://127.0.0.1:8765/
 
-Lokální server podporuje režim úprav (heslo `titanic`) včetně ukládání do souborů.
+Lokální server podporuje režim úprav včetně ukládání do souborů.
+Heslo nastavte proměnnou `VP_EDIT_PASSWORD` nebo souborem `.edit-password` (viz `.edit-password.example`).
 
 ## Aktualizace webu na internetu
 

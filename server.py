@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import uuid
 from pathlib import Path
@@ -17,8 +18,20 @@ ANNOTATIONS = SITE / "data" / "annotations.json"
 VIDEOS = SITE / "data" / "video-overrides.json"
 EMBEDS = SITE / "data" / "video-embeds.json"
 UPLOADS = SITE / "uploads"
-PASSWORD = "titanic"
 PORT = 8765
+
+
+def load_password() -> str:
+    env = os.environ.get("VP_EDIT_PASSWORD", "").strip()
+    if env:
+        return env
+    p = ROOT / ".edit-password"
+    if p.exists():
+        return p.read_text(encoding="utf-8").strip()
+    return ""
+
+
+PASSWORD = load_password()
 
 app = Flask(__name__, static_folder=None)
 app.secret_key = "vectorpro-cz-local-edit-key"
@@ -197,5 +210,8 @@ def serve(path: str):
 if __name__ == "__main__":
     UPLOADS.mkdir(parents=True, exist_ok=True)
     print(f"VectorPro CZ: http://127.0.0.1:{PORT}/")
-    print(f"Edit password: {PASSWORD}")
+    if PASSWORD:
+        print("Režim úprav: aktivní (heslo z VP_EDIT_PASSWORD nebo .edit-password)")
+    else:
+        print("Režim úprav: vypnutý – nastavte VP_EDIT_PASSWORD nebo soubor .edit-password")
     app.run(host="127.0.0.1", port=PORT, debug=False)

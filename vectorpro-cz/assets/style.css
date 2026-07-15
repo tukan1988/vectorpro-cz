@@ -167,8 +167,29 @@ body.edit-mode .note-add-btn,
   color: var(--muted);
   font-size: 0.85em;
   font-weight: 400;
+  display: none;
 }
-.en-sub { display: block; margin-top: 0.25rem; }
+body.show-english .en-inline { display: inline; }
+body.show-english .en-sub { display: block; margin-top: 0.25rem; }
+.en-sub { margin-top: 0.25rem; }
+.english-toggle {
+  margin-left: auto;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 4px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+.english-toggle.active {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: #fff;
+}
+.site-header { gap: 0.75rem; flex-wrap: wrap; }
+.site-header .orig-link { margin-left: 0; }
+.site-header:has(.orig-link) .english-toggle { margin-left: auto; }
 .no-video { color: var(--muted); }
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; }

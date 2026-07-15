@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 _site/
 .env
+.edit-password
 .venv/
 vectorpro-cz/uploads/
 *.log
