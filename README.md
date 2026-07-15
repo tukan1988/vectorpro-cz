@@ -27,7 +27,7 @@ Lokální server podporuje režim úprav (heslo `titanic`) včetně ukládání 
 ## Aktualizace webu na internetu
 
 1. Upravte soubory v `vectorpro-cz/` (nebo spusťte generátory)
-2. Commit + push na GitHub:
+2. Commit + push zdrojového kódu na `main`:
 
 ```bash
 git add .
@@ -35,7 +35,15 @@ git commit -m "Aktualizace obsahu"
 git push
 ```
 
-GitHub Actions během ~1–2 minut nasadí novou verzi.
+3. Nasazení na web:
+
+```bash
+python deploy_github.py
+```
+
+Skript sestaví statickou verzi a nahraje ji na větev `gh-pages` (~1 minuta).
+
+Repozitář: https://github.com/tukan1988/vectorpro-cz
 
 ## Build pro GitHub Pages (lokálně)
 
